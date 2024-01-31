@@ -16,3 +16,9 @@ py -m pip install -r requirements.txt
 Freeze the dependencies with the requirements.txt file:
 py -m pip freeze > requirements.txt
 ```
+
+py -m venv .venv
+.\.venv\Scripts\Activate.ps1
+py -m pip install jupyterlab pandas matplotlib seaborn
+py -m pip freeze > requirements.txt
+
